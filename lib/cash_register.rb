@@ -18,6 +18,7 @@ class CashRegister
     i = 0 
     while i <= quantity
       @item_names << @item
+      i+=1
     end
     @price = price
     @quantity = quantity
