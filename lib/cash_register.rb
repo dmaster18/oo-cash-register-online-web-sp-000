@@ -9,7 +9,7 @@ class CashRegister
   end
   
   def discount
-    if 
+    @employee_discount
   end
   
   def add_item(item, price, quantity = 1)
