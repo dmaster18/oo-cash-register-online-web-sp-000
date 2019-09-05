@@ -11,7 +11,7 @@ class CashRegister
   def add_item(item, price, quantity = 1)
     @item = item
     i = 0 
-    while 
+    while i <=
     @item_names << @item
     @price = price
     @quantity = quantity
