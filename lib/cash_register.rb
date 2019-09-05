@@ -38,7 +38,6 @@ class CashRegister
   def void_last_transaction
     item_count = @items.count
     @total -= @items[@item][0]*@items[@item][1]
-    @item_names.pop
     @items.delete(@item)
     if item_count == 0
       @total = 0
