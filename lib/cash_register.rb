@@ -27,7 +27,7 @@ class CashRegister
   
   def apply_discount
     if @employee_discount != 0
-      new_total = @total*(1-)
+      new_total = @total*0.01(1-)
       @total = new_total
       puts "After the discount, the total comes to #{@total}"
     else
