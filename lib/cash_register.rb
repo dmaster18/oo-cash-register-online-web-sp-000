@@ -16,6 +16,7 @@ class CashRegister
     @item = item
     @item_names << @item
     i = 0 
+    if 
     @price = price
     @quantity = quantity
     @items[@item] = [@price, @quantity]
