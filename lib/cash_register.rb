@@ -28,7 +28,7 @@ class CashRegister
   end
   
   def items
-    @items
+    @item_names
   end
   
   def void_last_transaction
